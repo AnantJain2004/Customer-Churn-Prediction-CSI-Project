@@ -4,6 +4,9 @@ import numpy as np
 import pickle
 import plotly.express as px
 import plotly.graph_objects as go
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
 from utils import format_prediction_output, get_risk_level, generate_prediction_explanation
 
 # Set page configuration
